@@ -37,7 +37,7 @@ To train our neural networks we used the Datacenter_dataset from the GitHub acco
 
 In order for the data to match our criteria for inputs and outputs, we performed a series of filters onto the raw input data. Because our goal was to predict future CPU utilization based on past resource utilization trends, we need to preprocess the data to represent it in this manner. We first assigned VMIDs to every virtual machines having the same no. of cores. Then, we created a new column Memory Usage % using the data from the column Memory usage [KB] .
 
-To formulate the output for the dataset, we took the CPU usage % and performed classification using MLPclassifier.They were classified as Overutilization (90% and above) and Underutilization (20% and below). Then , we again performed classification in the same way but now ith the column Memory Usage %.
+To formulate the output for the dataset, we took the CPU usage % and performed classification using MLPclassifier.They were classified as Overutilization (90% and above) and Underutilization (20% and below). Then , we again performed classification in the same way but now with the column Memory Usage %.
 
 ![](pictures/table3and4.png)
 
